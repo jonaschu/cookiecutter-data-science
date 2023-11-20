@@ -1,3 +1,11 @@
+# virtual enviroments
+.venv
+venv
+
+# PyEnv
+.python-version
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -34,6 +42,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+.pytest_cache
 htmlcov/
 .tox/
 .coverage
@@ -67,7 +76,7 @@ target/
 .idea
 
 # VS Code
-.vscode/
+.vscode/*
 
 # Spyder
 .spyproject/
